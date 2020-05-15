@@ -9,7 +9,7 @@ def line(array)
       output += "#{index + 1}. #{name}"
     end
   end
-  output
+ puts  output
 end
 
 
