@@ -8,8 +8,8 @@ def line(array)
     array.each_with_index do |name, index|
       output += "#{index + 1}. #{name}"
     end
+    output
   end
- puts 
 end
 
 
